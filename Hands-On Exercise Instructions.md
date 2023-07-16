@@ -1,9 +1,8 @@
-<style>
+<!-- <style>
     img{
         width: 50%;
     }
-</style>
-
+</style> -->
 # Instructions for implementing the Flutter Quotes App
 
 1. Go to this link and clone the starter code: https://github.com/bowtiedalien/virtual-factory
@@ -19,11 +18,14 @@
 
 3. Run the app using the Flutter plugin, or by running `flutter run` in the terminal. You should see this output on your device:
 
-<div float="left">
+<!-- <div float="left">
 <img alt="Starter Code output - main screen" src="instructions/startercode1.jpg">
 
 <img alt="Starter Code output - favourites screen" src="instructions/startercode2.jpg">
-</div>
+</div> -->
+
+![Starter Code output - main screen](instructions/startercode1.jpg)
+![Starter Code output - favourites screen](instructions/startercode2.jpg)
 
 4. Replace the `Container` widget inside the Scaffold in the following line of code:
 
