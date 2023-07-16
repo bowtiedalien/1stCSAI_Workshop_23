@@ -24,8 +24,8 @@
 <img alt="Starter Code output - favourites screen" src="instructions/startercode2.jpg">
 </div> -->
 
-![Starter Code output - main screen](instructions/startercode1.jpg)
-![Starter Code output - favourites screen](instructions/startercode2.jpg)
+![Starter Code output - main screen](startercode1.jpg)
+![Starter Code output - favourites screen](startercode2.jpg)
 
 4. Replace the `Container` widget inside the Scaffold in the following line of code:
 
