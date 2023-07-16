@@ -17,12 +17,6 @@ class _MyFavScreenState extends State<MyFavScreen> {
             child: Container(
                 child: const Text(
                     'You do not have anything in your favourites yet!')))
-        : ListView.builder(
-            itemCount: widget.quotes.length,
-            itemBuilder: (BuildContext ctxt, int i) {
-              return ListTile(
-                  title: Text(widget.quotes[i].quoteText),
-                  subtitle: Text(widget.quotes[i].author));
-            });
+        : const CircularProgressIndicator();
   }
 }
