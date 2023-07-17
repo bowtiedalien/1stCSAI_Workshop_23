@@ -5,7 +5,7 @@
 </style> -->
 # Instructions for implementing the Flutter Quotes App
 
-1. Go to this link and clone the starter code: https://github.com/bowtiedalien/virtual-factory
+1. Go to this link and clone the starter code: https://github.com/bowtiedalien/1stCSAI_Workshop_23
 
 2. First, add the `quotes.json` file as a dependency in your `pubspec.yaml` file.
 
@@ -43,6 +43,7 @@ with a ListView widget. This is the widget that will hold our list of quotes. It
 ```dart
 // add a ListView widget instead
 ListView.builder(
+        itemCount: _quotes.length,
         itemBuilder: (BuildContext context, int i) {
             return ListTile(
             title: Text(_quotes[i].quoteText),
